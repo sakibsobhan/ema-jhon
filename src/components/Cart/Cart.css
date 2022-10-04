@@ -1,0 +1,42 @@
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+ul{
+    margin: 60px 0;
+    list-style: none;
+    padding: 0;
+}
+ul li:not(:last-child){
+    margin-bottom: 30px;
+}
+ul li{
+    font-size: 18px;
+    font-weight: 500;
+}
+.clear-cart{
+    background: #FF3030;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.clear-cart:hover{
+    background: #ed0404;
+
+}
+.review-order{
+    background: #FF9900;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}

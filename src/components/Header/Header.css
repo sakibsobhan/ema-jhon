@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background: #1C2B35;
+    padding: 0 80px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+}
+.main .nav-item ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.main .nav-item ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .4s;
+}
+.main .nav-item ul li a:hover{
+    color: orange;
+}
